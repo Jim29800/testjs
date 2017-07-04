@@ -33,3 +33,13 @@ resultAddi= addi(nombre, addition) ;
 resultMulti= multi(nombre, multiplication);
 
 alert("le resultat de votre addition : " + nombre +"+"+ addition + "=" + resultAddi + "\nle resultat de votre multiplication : " + nombre +"x"+ multiplication + "=" + resultMulti );
+
+
+// ajout de l'exercice de "condition"
+
+if (resultAddi > 10) {
+	alert("votre resultat de condition est supérieur à 10, il vaut : " + resultAddi)
+}
+else{
+	alert("votre resultat de condition est inférieur à 10, il vaut : " + resultAddi)
+}
