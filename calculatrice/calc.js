@@ -13,7 +13,7 @@ var resultMulti = 0;
 nombre = prompt("Merci de saisir votre nombre de départ");
 addition = prompt("quel est le nombre que vous voulez additionner ?");
 multiplication= prompt("Par quel nombre voulez-vous multiplier ?");
-resultAddi= nombre*1 +addition*1;
-resultMulti= nombre*1 *multiplication*1;
-alert("le resultat de votre addition : " + nombre +"+"+ addition + "=" + resultAddi );
-alert("le resultat de votre multiplication : " + nombre +"x"+ multiplication + "=" + resultMulti );
+
+resultAddi= Number(nombre) + Number(addition);
+resultMulti= Number(nombre) *Number(multiplication);
+alert("le resultat de votre addition : " + nombre +"+"+ addition + "=" + resultAddi + "\nle resultat de votre multiplication : " + nombre +"x"+ multiplication + "=" + resultMulti );
