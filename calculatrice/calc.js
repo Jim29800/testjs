@@ -38,8 +38,30 @@ alert("le resultat de votre addition : " + nombre +"+"+ addition + "=" + resultA
 // ajout de l'exercice de "condition"
 
 if (resultAddi > 10) {
-	alert("votre resultat de condition est supérieur à 10, il vaut : " + resultAddi)
+	alert("votre resultat de l'addition est supérieur à 10, il vaut : " + resultAddi)
 }
 else{
-	alert("votre resultat de condition est inférieur à 10, il vaut : " + resultAddi)
+	alert("votre resultat de l'adition est inférieur à 10, il vaut : " + resultAddi)
 }
+
+var Compteur= Number(prompt("Devine mon nombre !\n compris entre 1 et 1000"));
+
+
+// Ajout d'une boucle while
+
+while(Compteur != 576)
+	{
+
+	if (Compteur > 576){
+
+		//alert("C'est plus");
+		Compteur= Number(prompt("Devine mon nombre !\n compris entre 1 et 1000 \nC'est MOINS"));
+
+	}
+	else {
+		//alert("C'est moins");
+		Compteur= Number(prompt("Devine mon nombre !\n compris entre 1 et 1000 \nC'est PLUS"));
+	}
+};
+
+alert("bravo")
