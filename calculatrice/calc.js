@@ -44,24 +44,25 @@ else{
 	alert("votre resultat de l'adition est inférieur à 10, il vaut : " + resultAddi)
 }
 
-var Compteur= Number(prompt("Devine mon nombre !\n compris entre 1 et 1000"));
-
 
 // Ajout d'une boucle while
+var Compteur= Number(prompt("Devine mon nombre !\n compris entre 1 et 1000"));
 
-while(Compteur != 576)
+var devine = 123;
+
+while(Compteur != devine)
 	{
 
-	if (Compteur > 576){
+	if (Compteur > devine){
 
 		//alert("C'est plus");
-		Compteur= Number(prompt("Devine mon nombre !\n compris entre 1 et 1000 \nC'est MOINS"));
+		Compteur= Number(prompt("Devine mon nombre !\n compris entre 1 et 1000 \nC'est MOINS que :" + Compteur));
 
 	}
 	else {
 		//alert("C'est moins");
-		Compteur= Number(prompt("Devine mon nombre !\n compris entre 1 et 1000 \nC'est PLUS"));
+		Compteur= Number(prompt("Devine mon nombre !\n compris entre 1 et 1000 \nC'est PLUS que : " + Compteur));
 	}
 };
 
-alert("bravo")
+alert("bravo c'etais : " + devine);
