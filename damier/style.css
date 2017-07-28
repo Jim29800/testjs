@@ -1,0 +1,15 @@
+[class*="col-"] {
+	border: 1px solid;
+  height:100px;
+  
+}
+.container{
+  border: 1px solid;
+}
+.black{
+       background:black;
+}
+.white
+{
+       background:blue;
+}
